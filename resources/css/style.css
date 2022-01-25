@@ -1,0 +1,149 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Universal Styles */
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+    color: #14213D;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FCA311;
+    padding: 0 1rem;
+}
+
+header h2 {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+}
+
+header li {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Main */
+
+main {
+    position: relative;
+    top: 8rem;
+    width: 100%;
+}
+
+
+/* About Us */
+
+.about-us {
+    display: flex;
+    padding: 1rem;
+}
+
+.main-img {
+    width: 50%;
+}
+
+.about-us-text {
+    padding: 1rem 4rem;
+}
+
+/* Services */
+
+.services {
+    display: flex;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #fca311;
+}
+
+.services h2 {
+    margin: ;
+}
+
+.services-text {
+    width: 50%;
+}
+
+/* Gallery */
+
+.gallery {
+    display: grid;
+    margin-top: 2rem;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-items: stretch;
+}
