@@ -13,7 +13,7 @@
 <body>
     <!-- Header -->
     <header>
-        <h2>The VC Experience</h2>
+        <h2>VC Experience</h2>
         <nav>
             <ul>
                 <li><a href="#about-us">About us</a></li>
@@ -26,7 +26,7 @@
     <!-- Main-->
     <main>
         <!-- About Us-->
-        <section class="about-us">
+        <section class="about-us" id="about-us">
             <div class="img-container">
                 <img src="./resources/images/main-photo.jpg" alt="">
             </div>
@@ -36,7 +36,7 @@
             </article>
         </section>
         <!-- Services-->
-        <section class="services">
+        <section class="services" id="services">
             <div class="text services-text">
                 <h2>Services</h2>
                 <h3>We offer a wide variarety of services, including:</h3>
@@ -49,31 +49,71 @@
                     <li>And many more...</li>
                 </ul>
             </div>
-            <div class="img-container">
+            <div class="img-container img-services">
                 <img src="./resources/images/services.jpg" alt="">
             </div>
         </section>
         <!-- Gallery -->
-        <section class="gallery">
-            <figure class="img-container">
+        <section class="gallery" id="gallery">
+            <h2>Gallery</h2>
+            <figure class="gallery-img">
                 <img src="./resources/images/1.jpg" alt="">
             </figure>
-            <figure class="img-container">
+            <figure class="gallery-img">
                 <img src="./resources/images/2.jpg" alt="">
             </figure>
-            <figure class="img-container">
-                <img src="./resources/images/3.jpg" alt="">
+            <figure class="gallery-img">
+                <img src="./resources/images/3.webp" alt="">
             </figure>
-            <figure class="img-container">
+            <figure class="gallery-img">
                 <img src="./resources/images/4.jpeg" alt="">
             </figure>
-            <figure class="img-container">
+            <figure class="gallery-img">
                 <img src="./resources/images/5.webp" alt="">
             </figure>
-            <figure class="img-container">
+            <figure class="gallery-img">
                 <img src="./resources/images/6.jpg" alt="">
             </figure>
         </section>
+        <!-- Contact-->git
+        <section class="contact" id="contact">
+            <div class="info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="form">
+                <h3>Please feel free to contact us regarding any questions</h3>
+                <form action="action"></form>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="message">Message</label>
+                <input type="text" name="message" id="message" placeholder="Type your message here">
+            </div>
+            <div class="directions">
+                <h3>Random directions</h3>
+                <ul>
+                    <li>Spreeweg 1</li>
+                    <li>10557 Berlin</li>
+                    <li>Germany</li>
+                </ul>
+                <ul class="social-media">
+                    <li>sadsad</li>
+                    <li>asdsadas</li>
+                </ul>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9713.00444781832!2d13.345362046851724!3d52.51079448642801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851082ab0098b%3A0x52120465b5fabd0!2sTiergarten%2C%20Berlin!5e0!3m2!1sen!2sde!4v1643228566631!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer>
+            <p>VC Experience 2022 ©</p>
+            <ul>
+                <li>T&C</li>
+                <li>Whatever</li>
+            </ul>
+        </footer>
     </main>
 </body>
 </html>
